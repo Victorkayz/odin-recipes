@@ -31,14 +31,17 @@ ul li {
     margin: 5px;
 }
 
-.Chicken_Bhuna_img {
+/* grouping recipe images of different 
+recipes html */
+
+.Chicken_Bhuna_img,
+.guacamole_img,
+.lobster_themidor_img,
+.sauce_vierge_img {
     height: auto;
     width: 400px;
 }
 
-.guacamole_img {
-    height: auto;
-    width: 400px;
-}
+
 
 
