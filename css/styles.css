@@ -1,4 +1,24 @@
 body {
+    
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../images/bg-restaurant.webp);
 }
+
+a {
+    text-decoration: none;
+    color: #8A307F;
+}
+
+a:hover {
+    color: rgb(134, 120, 133);
+}
+
+
+
+ul li {
+    padding: 10px;
+    list-style-position: outside;
+    list-style-type: circle;
+}
+
 
