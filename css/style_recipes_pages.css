@@ -1,34 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 }    
 
 a {
     text-decoration: none;
-    color: #8A307F;
+    color: rgb(138, 48, 127);
 }
 
 a:hover {
     color: rgb(135, 120, 134);
 }
 
+h2 {
+    margin-top: 30px;
+}
+
+p, h2, h3 {
+    color: rgb(43, 24, 40);
+}
 
 
-ul li {
-    padding: 10px;
-    list-style-position: outside;
-    list-style-type: circle;
+ul li,
+ol li {
+    color: rgb(58, 50, 50);
 }
 
 .container {
+    display: block;
     background-image: url(../images/bg-restaurant.webp);
     height: auto;
-    width: 400px;
+    width: 500px;
     /* box model */
     padding: 2px 10px;
-    border: 1px solid #877886;
-    margin: 5px;
+    margin: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 /* grouping recipe images of different 
@@ -39,9 +50,5 @@ recipes html */
 .lobster_themidor_img,
 .sauce_vierge_img {
     height: auto;
-    width: 400px;
+    width: 450px;    
 }
-
-
-
-
