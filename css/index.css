@@ -51,9 +51,17 @@ a {
 
 .nav-buttons {
     display: flex;
+    justify-content: flex-end;
     margin-top: 1px;
     padding-top: 5px;
-    float: right;
+}
+  @media (max-width: 360px) {
+
+    .nav-buttons {
+       
+        justify-content: flex-start;
+        
+  }
     
 
 }
@@ -67,7 +75,7 @@ a {
 }
 
 .nav-buttons li {
-    
+   display: inline-block; 
     margin-left: 40px;
     font-size: larger;
     font-family: system-ui, 
@@ -75,7 +83,7 @@ a {
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
     'Helvetica Neue', sans-serif;
     list-style-type: none;
-    float: right;
+     
     
 }
 
